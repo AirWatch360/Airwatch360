@@ -1,7 +1,4 @@
-Sure, here is the updated `CONTRIBUTING.md` file with the "Python Code Style" section removed:
-
-```markdown
-# Contributing to Airwatch
+## Contributing to Airwatch
 
 Thank you for considering contributing to Airwatch! Your contributions help make this project better for the entire ADS-B community. Here are some guidelines to help you get started.
 
