@@ -6,7 +6,7 @@ Airwatch is a repository dedicated to providing solutions to common problems enc
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Usage]()(#usage)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
