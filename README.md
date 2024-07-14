@@ -6,8 +6,7 @@ Airwatch is a repository dedicated to providing solutions to common problems enc
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Usage]()(#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -23,30 +22,9 @@ ADS-B is a surveillance technology in which an aircraft determines its position 
 - **Scripts and Tools**: Useful scripts to automate and enhance your ADS-B setup.
 - **Community Contributions**: Contributions from ADS-B enthusiasts worldwide.
 
-## Installation
-
-To get started with Airwatch, you can clone the repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/your-username/Airwatch.git
-```
-
-Ensure you have the necessary dependencies installed. Refer to the specific guide or script documentation within this repository for detailed installation instructions.
-
 ## Usage
 
 Explore the various guides and scripts available in this repository to improve your ADS-B feeder setup. Each guide and script is located in its respective directory and contains detailed instructions on how to use it.
-
-### Example
-
-To run a sample script for checking the status of your ADS-B feeder, navigate to the `scripts` directory and execute the script:
-
-```bash
-cd Airwatch/scripts
-python check_feeder_status.py
-```
-
-Refer to the documentation within each directory for more specific usage instructions.
 
 ## Contributing
 
