@@ -40,7 +40,7 @@ Please ensure your contributions adhere to our [Code of Conduct](CODE_OF_CONDUCT
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](licence.md) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENCE.md) file for more details.
 
 ## Acknowledgements
 
