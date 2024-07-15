@@ -1,93 +1,95 @@
-\# Installing PiAware on an Existing dump1090 Instance
+# Installing PiAware on an Existing dump1090 Instance
 
-\## Overview
+## Overview
 
 If you are running an ADS-B receiver with dump1090 on a Raspberry Pi, you can install the PiAware package to transmit your ADS-B receiver data to FlightAware. This guide will walk you through the steps to install PiAware on your existing dump1090 instance.
 
-\## Requirements
+## Requirements
 
-\- Raspberry Pi with Raspberry Pi OS (Bookworm, Bullseye, or Buster)
+- Raspberry Pi with Raspberry Pi OS (Bookworm, Bullseye, or Buster)
+- Internet connection
+- Access to a command line shell on the Pi
+- SSH access enabled on the Raspberry Pi
 
-\- Internet connection
+## Steps
 
-\- Access to a command line shell on the Pi
+### 1. Install the Latest OS Updates and Reboot
 
-\- SSH access enabled on the Raspberry Pi
-
-\## Steps
-
-\### 1. Install the Latest OS Updates and Reboot
-
+```
 sudo apt update
-
 sudo apt full-upgrade
-
 sudo reboot
+```
 
-\### 2. Download and Install PiAware
+### 2. Download and Install PiAware
 
 Download and install the FlightAware APT repository package:
 
-wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository\_1.2\_all.deb
-
-sudo dpkg -i flightaware-apt-repository\_1.2\_all.deb
+```
+wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository_1.2_all.deb
+sudo dpkg -i flightaware-apt-repository_1.2_all.deb
+```
 
 Update your apt package sources and install PiAware:
 
+```
 sudo apt update
-
 sudo apt install piaware
+```
 
 Enable automatic and manual PiAware software updates:
 
+```
 sudo piaware-config allow-auto-updates yes
-
 sudo piaware-config allow-manual-updates yes
+```
 
-\### 3. Download and Install dump1090-fa
+### 3. Download and Install dump1090-fa
 
 If you don't already have ADS-B decoder software such as dump1090-fa installed, install it:
 
+```
 sudo apt install dump1090-fa
+```
 
-\### 4. (Optional) Download and Install dump978-fa
+### 4. (Optional) Download and Install dump978-fa
 
 Note: 978 MHz UAT is only present in the U.S. If you live outside the U.S, you can skip this step.
 
+```
 sudo apt install dump978-fa
+```
 
-\### 5. Reboot Your Pi
+### 5. Reboot Your Pi
 
 Reboot your Raspberry Pi to ensure that everything starts correctly:
 
+```
 sudo reboot
+```
 
-\### 6. Claim Your PiAware Client on FlightAware.com
+### 6. Claim Your PiAware Client on FlightAware.com
 
 Wait about four or five minutes for your PiAware to start, then associate your FlightAware account with your PiAware device:
 
-\[Claim your PiAware client on FlightAware.com\](https://flightaware.com/adsb/piaware/claim)
+[Claim your PiAware client on FlightAware.com](https://flightaware.com/adsb/piaware/claim)
 
 If after 5 minutes your device hasn't displayed as claimed, try restarting the device. If that still doesn't work, re-confirm the Wi-Fi settings (if using Wi-Fi) are correct. Lastly, contact support at ADSBsupport@FlightAware.com.
 
-\### 7. View Your ADS-B Statistics
+### 7. View Your ADS-B Statistics
 
-View your ADS-B stats at: \[https://uk.flightaware.com/adsb/stats/user/airwatch360\](https://uk.flightaware.com/adsb/stats/user/airwatch360)
+View your ADS-B stats at: [https://uk.flightaware.com/adsb/stats/user/airwatch360](https://uk.flightaware.com/adsb/stats/user/airwatch360)
 
 FlightAware will begin processing your data immediately and display your statistics within 30 minutes. Configure your location and antenna height on your statistics page by clicking on the gear icon located to the right of the site name.
 
-\### Additional Links
+### Additional Links
 
-\- \[PiAware homepage\](https://flightaware.com/adsb/piaware/)
+- [PiAware homepage](https://flightaware.com/adsb/piaware/)
+- [Upgrade PiAware ADS-B software](https://flightaware.com/adsb/piaware/update)
+- [Source code for PiAware](https://github.com/flightaware/piaware)
+- [FlightAware dump1090 fork](https://github.com/flightaware/dump1090)
+- [Advanced Configuration documentation](https://flightaware.com/adsb/piaware/advanced_configuration)
 
-\- \[Upgrade PiAware ADS-B software\](https://flightaware.com/adsb/piaware/update)
-
-\- \[Source code for PiAware\](https://github.com/flightaware/piaware)
-
-\- \[FlightAware dump1090 fork\](https://github.com/flightaware/dump1090)
-
-\- \[Advanced Configuration documentation\](https://flightaware.com/adsb/piaware/advanced\_configuration)
-
-For any questions, visit the \[FlightAware ADS-B Forums\](https://discussions.flightaware.com/c/ads-b-flight-tracking).
+For any questions, visit the [FlightAware ADS-B Forums](https://discussions.flightaware.com/c/ads-b-flight-tracking).
 
 FlightAware provides accurate real-time, historical, and predictive flight insights to all segments of the aviation industry.
