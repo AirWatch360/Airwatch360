@@ -87,7 +87,7 @@ Claim your PiAware client on FlightAware.com visit --> [https://flightaware.com/
 If after 5 minutes your device hasn't displayed as claimed try restarting the device, if that still doesn't work re-confirm the Wi-Fi settings (if using Wi-Fi) are correct. Lastly, contact support on ADSBsupport@FlightAware.com. Check your stats page (link below) to confirm it was claimed.
 
 ### View your ADS-B statistics
-View your ADS-B stats at: [FlightAware ADS-B Stats](https://uk.flightaware.com/adsb/stats/USERNAME)
+View your ADS-B stats at: https://uk.flightaware.com/adsb/stats/USERNAME
 FlightAware will begin processing your data immediately and displaying your statistics within 30 minutes.
 
 - Statistics Page
