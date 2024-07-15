@@ -1,4 +1,3 @@
-```markdown
 # Setting Up PiAware with dump1090 on Raspberry Pi
 
 Do you want to link your Raspberry Pi with dump1090 to FlightAware?
@@ -84,4 +83,3 @@ View the PiAware upgrade page to update to the latest version.
 
     - The FlightAware stats page will also tell you the local IP of your device and provide a link for direct connection:
     - This is where you can find a link to SkyAware, a web portal for viewing flights the receiver is picking up messages from on a map.
-```
