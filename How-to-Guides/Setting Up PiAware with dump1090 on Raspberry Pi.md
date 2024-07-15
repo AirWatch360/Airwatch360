@@ -87,11 +87,9 @@ Claim your PiAware client on FlightAware.com visit --> [https://flightaware.com/
 If after 5 minutes your device hasn't displayed as claimed try restarting the device, if that still doesn't work re-confirm the Wi-Fi settings (if using Wi-Fi) are correct. Lastly, contact support on ADSBsupport@FlightAware.com. Check your stats page (link below) to confirm it was claimed.
 
 ### View your ADS-B statistics
-View your ADS-B stats at: https://uk.flightaware.com/adsb/stats/USERNAME
--FlightAware will begin processing your data immediately and displaying your statistics within 30 minutes, click 'My ADS-B' in the header while signed in. -This will only appear after the site has sent data for 30 minutes.
-  
-Configure your location and antenna height on your statistics page by clicking on the gear icon located to the right of the Site name.
-
-Multilateration, also known as MLAT, functions by pinpointing the location of an aircraft by knowing the locations of sites that received messages from the aircraft.
-
-The FlightAware stats page will also tell you the local IP of your device and provide a link for direct connection. This is where you can find a link to SkyAware, a web portal for viewing flights the receiver is picking up messages from on a map.
+- View your ADS-B stats at: https://uk.flightaware.com/adsb/stats/USERNAME
+- FlightAware will begin processing your data immediately and displaying your statistics within 30 minutes, click 'My ADS-B' in the header while signed in. 
+- This will only appear after the site has sent data for 30 minutes.
+- Configure your location and antenna height on your statistics page by clicking on the gear icon located to the right of the Site name.
+- Multilateration, also known as MLAT, functions by pinpointing the location of an aircraft by knowing the locations of sites that received messages from the aircraft.
+- The FlightAware stats page will also tell you the local IP of your device and provide a link for direct connection. This is where you can find a link to SkyAware, a web portal for viewing flights the receiver is picking up messages from on a map.
