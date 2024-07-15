@@ -82,7 +82,7 @@ sudo reboot
 ### Claim your PiAware client on FlightAware.com
 You should wait about four or five minutes for your PiAware to start and then you can associate your FlightAware account with your PiAware device to receive all the benefits.
 
-[Claim your PiAware client on FlightAware.com - https://flightaware.com/adsb/piaware/claim](https://flightaware.com/adsb/piaware/claim)
+Claim your PiAware client on FlightAware.com click --> [https://flightaware.com/adsb/piaware/claim](https://flightaware.com/adsb/piaware/claim)
 
 If after 5 minutes your device hasn't displayed as claimed try restarting the device, if that still doesn't work re-confirm the Wi-Fi settings (if using Wi-Fi) are correct. Lastly, contact support on ADSBsupport@FlightAware.com. Check your stats page (link below) to confirm it was claimed.
 
