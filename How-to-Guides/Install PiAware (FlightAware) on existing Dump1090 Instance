@@ -15,58 +15,45 @@ If you are running an ADS-B receiver with dump1090 on a Raspberry Pi, you can in
 
 ### 1. Install the Latest OS Updates and Reboot
 
-```bash
 sudo apt update
 sudo apt full-upgrade
 sudo reboot
-```
 
 ### 2. Download and Install PiAware
 
 Download and install the FlightAware APT repository package:
 
-```bash
 wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository_1.2_all.deb
 sudo dpkg -i flightaware-apt-repository_1.2_all.deb
-```
 
 Update your apt package sources and install PiAware:
 
-```bash
 sudo apt update
 sudo apt install piaware
-```
 
 Enable automatic and manual PiAware software updates:
 
-```bash
 sudo piaware-config allow-auto-updates yes
 sudo piaware-config allow-manual-updates yes
-```
 
 ### 3. Download and Install dump1090-fa
 
 If you don't already have ADS-B decoder software such as dump1090-fa installed, install it:
 
-```bash
+
 sudo apt install dump1090-fa
-```
 
 ### 4. (Optional) Download and Install dump978-fa
 
 Note: 978 MHz UAT is only present in the U.S. If you live outside the U.S, you can skip this step.
 
-```bash
 sudo apt install dump978-fa
-```
 
 ### 5. Reboot Your Pi
 
 Reboot your Raspberry Pi to ensure that everything starts correctly:
 
-```bash
 sudo reboot
-```
 
 ### 6. Claim Your PiAware Client on FlightAware.com
 
