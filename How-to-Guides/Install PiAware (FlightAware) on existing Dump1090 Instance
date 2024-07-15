@@ -81,15 +81,3 @@ If after 5 minutes your device hasn't displayed as claimed, try restarting the d
 View your ADS-B stats at: [https://uk.flightaware.com/adsb/stats/user/airwatch360](https://uk.flightaware.com/adsb/stats/user/airwatch360)
 
 FlightAware will begin processing your data immediately and display your statistics within 30 minutes. Configure your location and antenna height on your statistics page by clicking on the gear icon located to the right of the site name.
-
-### Additional Links
-
-- [PiAware homepage](https://flightaware.com/adsb/piaware/)
-- [Upgrade PiAware ADS-B software](https://flightaware.com/adsb/piaware/update)
-- [Source code for PiAware](https://github.com/flightaware/piaware)
-- [FlightAware dump1090 fork](https://github.com/flightaware/dump1090)
-- [Advanced Configuration documentation](https://flightaware.com/adsb/piaware/advanced_configuration)
-
-For any questions, visit the [FlightAware ADS-B Forums](https://discussions.flightaware.com/c/ads-b-flight-tracking).
-
-FlightAware provides accurate real-time, historical, and predictive flight insights to all segments of the aviation industry.
