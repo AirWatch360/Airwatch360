@@ -4,14 +4,3 @@
 
 If you are running an ADS-B receiver with dump1090 on a Raspberry Pi, you can install the PiAware package to transmit your ADS-B receiver data to FlightAware. This guide will walk you through the steps to installp PiAware on your existing dump1090 instance.
 
-## Requirements
-
-- Raspberry Pi with Raspberry Pi OS (Bookworm, Bullseye, or Buster)
-- Internet connection
-- Access to a command line shell on the Pi
-- SSH access enabled on the Raspberry Pi
-
-## Steps
-
-### 1. Install the Latest OS Updates and Reboot
-
