@@ -88,10 +88,7 @@ If after 5 minutes your device hasn't displayed as claimed try restarting the de
 
 ### View your ADS-B statistics
 View your ADS-B stats at: https://uk.flightaware.com/adsb/stats/USERNAME
-FlightAware will begin processing your data immediately and displaying your statistics within 30 minutes.
-
-- Statistics Page
-- or click 'My ADS-B' in the header while signed in. This will only appear after the site has sent data for 30 minutes.
+-FlightAware will begin processing your data immediately and displaying your statistics within 30 minutes, click 'My ADS-B' in the header while signed in. -This will only appear after the site has sent data for 30 minutes.
   
 Configure your location and antenna height on your statistics page by clicking on the gear icon located to the right of the Site name.
 
