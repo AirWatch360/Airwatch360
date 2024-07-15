@@ -70,7 +70,7 @@ Note: 978 MHz UAT is only present in the U.S. If you live outside the U.S, you c
 sudo apt install dump978-fa
 ```
 
-For further instructions to configure your receiver for 978 UAT, go to our [advanced configuration page](https://flightaware.com/adsb/piaware/advanced-configuration).
+For further instructions to configure your receiver for 978 UAT, go to your [advanced configuration page](https://flightaware.com/adsb/piaware/advanced-configuration).
 
 ### Reboot your Pi
 Once you have finished installing and configuring the packages, reboot your Raspberry Pi to ensure that everything starts correctly.
@@ -82,7 +82,7 @@ sudo reboot
 ### Claim your PiAware client on FlightAware.com
 You should wait about four or five minutes for your PiAware to start and then you can associate your FlightAware account with your PiAware device to receive all the benefits.
 
-[Claim your PiAware client on FlightAware.com (https://flightaware.com/adsb/piaware/claim)](https://flightaware.com/adsb/piaware/claim)
+[Claim your PiAware client on FlightAware.com - https://flightaware.com/adsb/piaware/claim](https://flightaware.com/adsb/piaware/claim)
 
 If after 5 minutes your device hasn't displayed as claimed try restarting the device, if that still doesn't work re-confirm the Wi-Fi settings (if using Wi-Fi) are correct. Lastly, contact support on ADSBsupport@FlightAware.com. Check your stats page (link below) to confirm it was claimed.
 
