@@ -64,4 +64,3 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) in all your interacti
 ---
 
 Thank you for contributing to Airwatch! Together, we can create a valuable resource for ADS-B enthusiasts worldwide.
-```
