@@ -11,7 +11,7 @@ To share data from your Piaware with Flightradar24, simply follow the instructio
 
 **Note:** This does not affect your piaware feed!
 
-'''
+```sh
 # Welcome to the FR24 Decoder/Feeder sign up wizard!
 
 Before you continue please make sure that:
