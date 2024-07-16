@@ -1,7 +1,5 @@
 # How to share data from Piaware?
 
-**Modified on:** Mon, 12 Feb, 2024 at 11:54 AM
-
 **Note:** SSH password for piaware image is "flightaware" without the quotes.
 
 To share data from your Piaware with Flightradar24, simply follow the instructions below:
@@ -10,16 +8,14 @@ To share data from your Piaware with Flightradar24, simply follow the instructio
    ```sh
    wget -qO- https://fr24.com/install.sh | sudo bash -s
    ```
-2. See the attached screenshot for answering setup questions OR refer to page 29 of the [manual](http://feed.flightradar24.com/fr24feed-manual.pdf) for the same.
 
 **Note:** This does not affect your piaware feed!
 
-Here is what your configuration should look like:
 Open your browser and go to
 ```
 http://IP-of-Pi:8754/settings.html
 ```
-Make sure to replace `IP-of-Pi` in the above URL with the actual IP address of your raspberry pi. If you have the correct IP address, you should see something like this:
+Make sure to replace `IP-of-Pi` in the above URL with the actual IP address of your raspberry pi. If you have the correct IP address.
 
 Both the settings below are correct. You can use either. Just make sure you use the correct port with the correct receiver type i.e., AVR(TCP) is 30002.
 
