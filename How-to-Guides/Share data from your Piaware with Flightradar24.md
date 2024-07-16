@@ -94,7 +94,6 @@ To restart the service run `sudo service fr24feed restart` to use new configurat
 *FR24 Feeder/Decoder online and configured!*
 
 pi@raspberrypi:~$
-
 '''
 
 Open your browser and go to
